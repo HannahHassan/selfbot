@@ -7,8 +7,8 @@ class Msg:
 		self.bot = bot
 
 	async def on_message(self, message):
-		hiddenChannel = self.bot.get_channel("298875467916640256")
-		if message.channel == hiddenChannel and message.author.bot == False:
+		channel = self.bot.get_channel("403928190982160384")
+		if message.channel == channel and message.author.bot == False:
 			words = message.content.split()
 			if len(words)+1 < 15:
 				await self.bot.delete_message(message)
