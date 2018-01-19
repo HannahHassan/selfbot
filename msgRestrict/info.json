@@ -1,0 +1,8 @@
+{
+    "AUTHOR" : "Nimehr",
+    "DESCRIPTION" : "Deletes messages with less than 15 words",
+    "DISABLED" : false,
+    "SHORT" : "Deletes messages",
+    "NAME" : "msgRestrict",
+    "INSTALL_MSG" : "\nMessage from Nim:\n\nHi d3f"
+}
